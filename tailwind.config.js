@@ -1,1 +1,1 @@
-module.exports={}
+module.exports={content:["./pages/**/*.{js,jsx}"],darkMode:"class"};
