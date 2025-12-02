@@ -1,8 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "@tailwindcss/postcss/base";
+@import "@tailwindcss/postcss/components";
+@import "@tailwindcss/postcss/utilities";
 
-/* resto de tu CSS */
 body {
   margin: 0;
   padding: 0;
