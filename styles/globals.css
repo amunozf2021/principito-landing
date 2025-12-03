@@ -1,9 +1,26 @@
-@import "@tailwindcss/postcss/base";
-@import "@tailwindcss/postcss/components";
-@import "@tailwindcss/postcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, sans-serif;
+html.dark {
+  background: #0a0f2c;
+  color: white;
+}
+
+html.light {
+  background: #fafafa;
+  color: #111;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-fadeInSlow {
+  animation: fadeIn 1.2s ease-out forwards;
 }
