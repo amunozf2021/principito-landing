@@ -32,7 +32,7 @@ export default function Home() {
         </p>
 
         <a
-          href="https://wa.me/14173085432?text=jugar%20principito"
+          href="https://wa.me/14484188925?text=jugar%20principito"
           className="inline-block bg-yellow-300 text-black text-xl px-6 py-3 rounded-lg shadow-lg hover:scale-105 transition animate-pulse"
         >
           Jugar en WhatsApp
