@@ -50,7 +50,7 @@ export default function Home() {
         <section className="mt-20 animate-fadeInSlow">
           <h2 className="text-3xl font-semibold mb-4">📲 Escanéalo para jugar</h2>
           <Image
-            src={`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fwa.me%2F14173085432%3Ftext%3Djugar%2520principito`}
+            src={`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fwa.me%2F14484188925%3Ftext%3Djugar%2520principito`}
             width={220}
             height={220}
             alt="QR Principito"
